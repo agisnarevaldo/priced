@@ -4,12 +4,15 @@
   "description": "case study 3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "browser-sync -sw"
   },
   "repository": {
     "type": "git",
     "url": "priced"
   },
   "author": "agisnarev",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.11"
+  }
 }
