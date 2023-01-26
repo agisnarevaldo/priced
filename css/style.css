@@ -74,7 +74,11 @@ main > h1 {
   line-height: 47px;
 }
 
-.card {
+main > section {
+  display: flex;
+}
+
+main section .card {
   background-color: white;
   color: black;
 }
