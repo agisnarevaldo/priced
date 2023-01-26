@@ -74,6 +74,11 @@ main > h1 {
   line-height: 47px;
 }
 
+.card {
+  background-color: white;
+  color: black;
+}
+
 main .card .feature ul li .icon {
   color: var(--second);
 }
